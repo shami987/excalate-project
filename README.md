@@ -32,6 +32,32 @@ Update this README to include:
 - how to run the tests locally,
 - how to build and run tests with Docker.
 
+## Running Tests
+
+### Locally
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run tests:
+   ```bash
+   npm test
+   ```
+
+### With Docker
+
+1. Build the Docker image:
+   ```bash
+   docker build -t ai-assignment .
+   ```
+
+2. Run tests in Docker:
+   ```bash
+   docker run ai-assignment
+   ```
+
 ### 4) Find + fix a bug (required)
 
 There is a bug somewhere in this repository.

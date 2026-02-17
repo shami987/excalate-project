@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/MoeYasir/ai-software-engineer-assignment-ts/issues"
   },
-  "homepage": "https://github.com/MoeYasir/ai-software-engineer-assignment-ts#readme"
+  "homepage": "https://github.com/MoeYasir/ai-software-engineer-assignment-ts#readme",
+  "devDependencies": {
+    "@types/node": "20.11.5",
+    "typescript": "5.3.3",
+    "vitest": "1.2.1"
+  }
 }
